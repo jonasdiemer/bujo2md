@@ -1,0 +1,10 @@
+[package]
+name = "bujo2md"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+async-openai = "0.24"
+tokio = { version = "1.38.0", features = ["full"] }
+image-base64 = "0.1"
+termimad = "0.20"
